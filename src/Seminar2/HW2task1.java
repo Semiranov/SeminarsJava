@@ -1,3 +1,5 @@
+package Seminar2;
+
 import java.io.*;
 import java.lang.reflect.Array;
 
@@ -11,7 +13,7 @@ public class HW2task1 {
 
     public static void main(String[] args) {
 
-        String str = readFile("src/HW2task1.txt");
+        String str = readFile("src/Seminar2/HW2task1.txt");
         String name = getSt(str, 0);
         String country = getSt(str, 1);
         String city = getSt(str, 2);
